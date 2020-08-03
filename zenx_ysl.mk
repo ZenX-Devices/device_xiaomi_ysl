@@ -24,6 +24,10 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
+#BOOT ANIMATION RES
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := zenx_ysl

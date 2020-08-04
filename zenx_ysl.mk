@@ -21,12 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common ZenX stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
 #BOOT ANIMATION RES
 TARGET_BOOT_ANIMATION_RES := 1080
+
 TARGET_GAPPS_ARCH := arm64
+
+#Official Tag
+ZENX_BUILD_TYPE := Official
+
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl

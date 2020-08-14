@@ -23,9 +23,9 @@
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     
-    <!-- Set device part package name for zen hub-->
-    <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings</string>
-    <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.DeviceSettingsActivity</string>
+    <!-- Set XiaomiParts package name for zen hub-->
+    <string name="config_device_parts_package_name" translatable="false">com.xiaomi.hub</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.xiaomi.hub.DeviceSettingsActivity</string>
     
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
